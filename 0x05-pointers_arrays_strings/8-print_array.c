@@ -7,7 +7,7 @@
  * followed by a new line.
  * @a: 1st parameter
  * @n: 2nd parameter
- * Return: a and n inputs
+ * Return: nothing
  */
 
 void print_array(int *a, int n)
