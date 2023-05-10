@@ -3,9 +3,10 @@
 /**
  * _puts_recursion - A function that prints a string, followed by a new line.
  * @s: parameter
+ * Return: always 0 (success)
  */
 
-void _puts_recursion(char *s);
+void _puts_recursion(char *s)
 {
 	if (*s)
 	{
