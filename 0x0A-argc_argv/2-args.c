@@ -4,7 +4,8 @@
  * main - A program that prints all arguments it receives.
  * @argc: number of argument
  * @argv: argument vector
- * return: Always 0(success)
+ * Description:prints all argument received
+ * Return: Always 0(success)
  */
 
 int main(int argc, char *argv[])
