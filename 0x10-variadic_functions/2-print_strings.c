@@ -3,10 +3,10 @@
 #include <stdarg.h>
 
 /**
- * print_strings - Print strings, followed by a new line.
- * @n: the number of strings passed to function
- * @separator: separator
- * @... a variable number of strings to be passed
+ * print_strings - Prints strings, followed by a new line.
+ * @n: The number of strings passed to function
+ * @separator: Separator
+ * @...: A variable number of strings to be passed
  * Return: nothing
  */
 void print_strings(const char *separator, const unsigned int n, ...)
