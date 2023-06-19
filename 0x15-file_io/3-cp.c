@@ -53,7 +53,7 @@ int main(int argc, char *argv[])
 		nchars = read(from, buffer, 1024);
 		if (nchars == -1)
 			error_file(-1, 0, argv);
-		w = write(from, buffer, nchars);
+		w = write(to, buffer, nchars);
 		if (w == -1)
 			error_file(0, -1, argv);
 	}
